@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'CenturyGothicBold';
-    font-weight: normal;
+    font-family: 'CenturyGothic';
+    font-weight: bold;
     font-style: normal;
-    src: url('../fonts/gothic-bold.eot');
-    src: url('../fonts/gothic-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/gothic-bold.woff') format('woff'), url('../fonts/gothic-bold.ttf') format('truetype'), url('../fonts/gothic-bold.svg#gothic') format('svg');
+    src: url('../fonts/gothic.eot');
+    src: url('../fonts/gothic.eot?#iefix') format('embedded-opentype'), url('../fonts/gothic.woff') format('woff'), url('../fonts/gothic.ttf') format('truetype'), url('../fonts/gothic.svg#gothic') format('svg');
 }
 
 body {
@@ -17,14 +17,14 @@ body {
 
 h1 {
     font-size: 31px;
-    font-family: 'CenturyGothicBold';
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-weight: bold;
     color: #ff6900;
 }
 
 h2 {
     font-size: 21px;
-    font-family: 'CenturyGothicBold';
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     ;
     font-weight: bold;
     color: #ff6900;
@@ -166,7 +166,7 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    font-family: 'CenturyGothicBold';
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-weight: bold;
     font-size: 15px;
     display: table-cell;
@@ -346,7 +346,7 @@ footer .main {
 }
 
 .lable-footer {
-    font-family: 'CenturyGothicBold';
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 14px;
     color: #010101;
     text-transform: uppercase;
@@ -436,7 +436,7 @@ footer .email-field {
     background-size: 100% 100%;
     color: #fff;
     font-size: 14px;
-    font-family: Century Gothic;
+    font-family:'CenturyGothicBold';
     font-weight: normal;
     border: none;
     text-shadow: 0px -2px #ff9600;
