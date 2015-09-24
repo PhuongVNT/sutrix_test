@@ -1,0 +1,67 @@
+.search-field {
+    behavior: url(asset/css/PIE.htc);
+}
+
+.news.last-child {
+    padding-bottom: 10px;
+}
+
+footer .email-field {
+    width: 200px;
+    position: relative;
+    behavior: url(asset/css/PIE.htc);
+}
+
+.email-submit {
+    behavior: url(asset/css/PIE.htc);
+    position: relative;
+    background: url(../images/bk_btn.jpg) repeat-x;
+}
+
+.menu li a {
+    behavior: url(asset/css/PIE.htc);
+    position: relative;
+}
+
+.intro {
+    behavior: url(asset/css/PIE.htc);
+}
+
+.jcarousel-pagination a,
+.img-intro .jcarousel-pagination a {
+    position: relative;
+    behavior: url(asset/css/PIE.htc);
+}
+
+.news-envents {
+    behavior: url(asset/css/PIE.htc);
+}
+
+.news-active figure img {
+    behavior: url(asset/css/PIE.htc);
+}
+
+.news-active {
+    behavior: url(asset/css/PIE.htc);
+}
+
+.news:last-child,
+.news.last-child {
+    behavior: url(asset/css/PIE.htc);
+}
+
+.partners {
+    behavior: url(asset/css/PIE.htc);
+}
+
+footer .main {
+    behavior: url(asset/css/PIE.htc);
+}
+
+.header-languge img {
+    behavior: url(asset/css/PIE.htc);
+}
+
+.menu {
+    behavior: url(asset/css/PIE.htc);
+}

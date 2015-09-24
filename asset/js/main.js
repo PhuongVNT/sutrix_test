@@ -1,0 +1,61 @@
+(function($) {
+    $(function() {
+
+        $('.jcarousel-welcome')
+            .jcarousel({
+                wrap: 'circular'
+            });
+
+        $('.jcarousel-intro')
+            .on('jcarousel:targetin', 'li', function(event, carousel) {
+                var comment = $(this).find('p').html();
+                if (comment) $('.photo-credits').html(comment);
+            });
+
+
+        $('.jcarousel-intro')
+            .jcarousel({
+                wrap: 'circular'
+            })
+            .jcarouselAutoscroll({
+                interval: 3000,
+                target: '+=1',
+                autostart: true
+            });
+
+        $('.jcarousel-control-prev')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '-=1'
+            });
+
+        $('.jcarousel-control-next')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '+=1'
+            });
+
+        $('.jcarousel-pagination')
+            .on('jcarouselpagination:active', 'a', function() {
+                $(this).addClass('active');
+            })
+            .on('jcarouselpagination:inactive', 'a', function() {
+                $(this).removeClass('active');
+            })
+            .jcarouselPagination({
+                item: function(page) {
+                    return '<a href="#' + page + '">' + (page - 1) + '</a>';
+                }
+            });
+    });
+})(jQuery);
