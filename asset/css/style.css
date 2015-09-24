@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/gothic.eot');
+    src: url('../fonts/gothic.eot?#iefix') format('embedded-opentype'), url('../fonts/gothic.woff') format('woff'), url('../fonts/gothic.ttf') format('truetype'), url('../fonts/gothic.svg#gothic') format('svg');
+}
+
 body {
     background: url(../images/bk.jpg) repeat;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
