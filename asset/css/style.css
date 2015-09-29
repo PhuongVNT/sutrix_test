@@ -205,8 +205,10 @@ header {
 }
 
 .content-intro p {
+    max-height: 75px;
     padding: 20px 0 0 0;
     text-align: justify;
+    overflow: hidden;
 }
 
 .img-intro {
@@ -215,6 +217,10 @@ header {
     padding: 10px;
 }
 
+.caption p{
+    overflow: hidden;
+    max-height: 50px;
+}
 .news-envents {
     width: 480px;
     float: left;
@@ -436,7 +442,7 @@ footer .email-field {
     background-size: 100% 100%;
     color: #fff;
     font-size: 14px;
-    font-family: 'CenturyGothicBold';
+    font-family:'CenturyGothicBold'
     font-weight: normal;
     border: none;
     text-shadow: 0px -2px #ff9600;
